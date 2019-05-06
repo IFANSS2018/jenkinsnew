@@ -1,0 +1,455 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "To verify the customer ID is generated",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-the-customer-id-is-generated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "The user is in add customer page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "The user fill in valid customer details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "sarala",
+                  "subramanian",
+                  "sara@gmail.com",
+                  "chennai",
+                  "8879097987"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "The user clicks submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The user should see the customer id generated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Add.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To verify the customer ID is generated",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-the-customer-id-is-generated",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "The user is in add customer page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "The user fill in valid customer details",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "The user clicks submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "The user should see the customer id generated",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Addcustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "To verify whether the customer ID is generated or not",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-whether-the-customer-id-is-generated-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "The user is in add customer page now",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "The user fill in valid customer details with data",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "sarala"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "subramanian"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "sara@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNum",
+                  "987797987"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "The user clicks submit button in the page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "The user should see the customer id generated at the end",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/AddusingMap.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "To verify add tariff plan with valid details using pom",
+        "description": "",
+        "id": "to-test-add-tariff-plan-using-pom;to-verify-add-tariff-plan-with-valid-details-using-pom",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "The user fill in valid plan details with data",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "The user clicks submit button using pom",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The user should see the sucess message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan using pom",
+    "description": "",
+    "id": "to-test-add-tariff-plan-using-pom",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Pom.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 17,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"0967\",\"6789\",\"2486\",\"2435\",\"3456\",\"456\",\"3456\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"0961\",\"1789\",\"1486\",\"1435\",\"1456\",\"4156\",\"456\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"3967\",\"6739\",\"2436\",\"2433\",\"3453\",\"356\",\"456\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan",
+    "description": "",
+    "id": "to-test-add-tariff-plan",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/TariffSceOutLine.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

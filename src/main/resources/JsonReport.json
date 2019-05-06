@@ -1,0 +1,788 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5811005049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify the customer ID is generated",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-the-customer-id-is-generated",
+        "after": [
+          {
+            "result": {
+              "duration": 890397065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4989350053,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user is in add customer page",
+            "match": {
+              "location": "NewSteps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1536597675,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user fill in valid customer details",
+            "match": {
+              "location": "NewSteps.the_user_fill_in_valid_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sarala",
+                  "subramanian",
+                  "sara@gmail.com",
+                  "chennai",
+                  "8879097987"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2480020919,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user clicks submit button",
+            "match": {
+              "location": "NewSteps.the_user_clicks_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250161531,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should see the customer id generated",
+            "match": {
+              "location": "NewSteps.the_user_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Add.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3643919530,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify the customer ID is generated",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-the-customer-id-is-generated",
+        "after": [
+          {
+            "result": {
+              "duration": 851126975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4820966478,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is in add customer page",
+            "match": {
+              "location": "NewSteps.the_user_is_in_add_customer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.runtime.CucumberException: Step [The user fill in valid customer details] is defined with 1 parameters at \u0027cucumberrr.NewSteps.the_user_fill_in_valid_customer_details(DataTable) in file:/C:/Users/Dhamodharan/eclipse-workspace/cucumberr/target/classes/\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: The user fill in valid customer details\r\n\tat cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:63)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:49)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:44)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:40)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:124)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:133)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
+              "duration": 2194959,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "The user fill in valid customer details",
+            "match": {
+              "location": "NewSteps.the_user_fill_in_valid_customer_details(DataTable)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41945,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "The user clicks submit button",
+            "match": {
+              "location": "NewSteps.the_user_clicks_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17849,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "The user should see the customer id generated",
+            "match": {
+              "location": "NewSteps.the_user_should_see_the_customer_id_generated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Addcustomer.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3674663684,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To verify whether the customer ID is generated or not",
+        "description": "",
+        "id": "to-test-add-customer-functionality;to-verify-whether-the-customer-id-is-generated-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 692597289,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8378522689,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user is in add customer page now",
+            "match": {
+              "location": "StepsMap.the_user_is_in_add_customer_page_now()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2692925262,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user fill in valid customer details with data",
+            "match": {
+              "location": "StepsMap.the_user_fill_in_valid_customer_details_with_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "sarala"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "subramanian"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "sara@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "phNum",
+                  "987797987"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3348117217,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user clicks submit button in the page",
+            "match": {
+              "location": "StepsMap.the_user_clicks_submit_button_in_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71480971,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user should see the customer id generated at the end",
+            "match": {
+              "location": "StepsMap.the_user_should_see_the_customer_id_generated_at_the_end()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add customer functionality",
+    "description": "",
+    "id": "to-test-add-customer-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/AddusingMap.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3238846270,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify add tariff plan with valid details using pom",
+        "description": "",
+        "id": "to-test-add-tariff-plan-using-pom;to-verify-add-tariff-plan-with-valid-details-using-pom",
+        "after": [
+          {
+            "result": {
+              "duration": 947367388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14434113743,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in add tariff plan",
+            "match": {
+              "location": "PomExecutiom.plan()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.sendKeys(Unknown Source)\r\n\tat cucumberrr.PomBaseclass.type(PomBaseclass.java:47)\r\n\tat cucumberrr.PomExecutiom.the_user_fill_in_valid_plan_details_with_data(PomExecutiom.java:28)\r\n\tat ✽.The user fill in valid plan details with data(src/test/resources/cucumbe/Pom.feature:8)\r\n",
+              "duration": 1618442,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "The user fill in valid plan details with data",
+            "match": {
+              "location": "PomExecutiom.the_user_fill_in_valid_plan_details_with_data()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20526,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "The user clicks submit button using pom",
+            "match": {
+              "location": "PomExecutiom.the_user_clicks_submit_button_using_pom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59793,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "The user should see the sucess message",
+            "match": {
+              "location": "PomExecutiom.the_user_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan using pom",
+    "description": "",
+    "id": "to-test-add-tariff-plan-using-pom",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/Pom.feature",
+    "tags": []
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3494580204,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1192067180,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9148368350,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {
+              "location": "StepsSceOutline.the_userr_is_in_add_tariff_plan()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MJN0-0----MKK99\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\DHAMOD~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59855}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 1567fa2444a3f8e10b76fe55366d67dc\n*** Element info: {Using\u003did, value\u003drental1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat cucumberrr.StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(StepsSceOutline.java:26)\r\n\tat ✽.The userr fill in valid plan details with data \"0967\",\"6789\",\"2486\",\"2435\",\"3456\",\"456\",\"3456\"(src/test/resources/cucumbe/TariffSceOutLine.feature:11)\r\n",
+              "duration": 75975305,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"0967\",\"6789\",\"2486\",\"2435\",\"3456\",\"456\",\"3456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0967\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"6789\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2486\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"2435\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"3456\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"3456\"",
+                  "offset": 88
+                }
+              ],
+              "location": "StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29897,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {
+              "location": "StepsSceOutline.the_userr_clicks_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24988,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {
+              "location": "StepsSceOutline.the_userr_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3912173077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 701394529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5811569965,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {
+              "location": "StepsSceOutline.the_userr_is_in_add_tariff_plan()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MJN0-0----MKK99\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\DHAMOD~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59932}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: e9e86907480aef4f14130132c9c86aeb\n*** Element info: {Using\u003did, value\u003drental1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat cucumberrr.StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(StepsSceOutline.java:26)\r\n\tat ✽.The userr fill in valid plan details with data \"0961\",\"1789\",\"1486\",\"1435\",\"1456\",\"4156\",\"456\"(src/test/resources/cucumbe/TariffSceOutLine.feature:11)\r\n",
+              "duration": 40240620,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"0961\",\"1789\",\"1486\",\"1435\",\"1456\",\"4156\",\"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"0961\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"1789\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"1486\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"1435\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"1456\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"4156\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 89
+                }
+              ],
+              "location": "StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18295,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {
+              "location": "StepsSceOutline.the_userr_clicks_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33467,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {
+              "location": "StepsSceOutline.the_userr_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4226893805,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testbefore()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "To verify add tariff plan with valid details",
+        "description": "",
+        "id": "to-test-add-tariff-plan;to-verify-add-tariff-plan-with-valid-details;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 838584606,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testafter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7701198191,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The userr is in add tariff plan",
+            "match": {
+              "location": "StepsSceOutline.the_userr_is_in_add_tariff_plan()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MJN0-0----MKK99\u0027, ip: \u0027192.168.1.6\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\DHAMOD~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59991}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: b2b8e046f76e637e77173cd872d56623\n*** Element info: {Using\u003did, value\u003drental1}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat cucumberrr.StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(StepsSceOutline.java:26)\r\n\tat ✽.The userr fill in valid plan details with data \"3967\",\"6739\",\"2436\",\"2433\",\"3453\",\"356\",\"456\"(src/test/resources/cucumbe/TariffSceOutLine.feature:11)\r\n",
+              "duration": 23664417,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "The userr fill in valid plan details with data \"3967\",\"6739\",\"2436\",\"2433\",\"3453\",\"356\",\"456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3967\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"6739\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2436\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"2433\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"3453\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"356\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"456\"",
+                  "offset": 88
+                }
+              ],
+              "location": "StepsSceOutline.the_userr_fill_in_valid_plan_details_with_data(String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18295,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The userr clicks submit button",
+            "match": {
+              "location": "StepsSceOutline.the_userr_clicks_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15618,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "The userr should see the sucess message",
+            "match": {
+              "location": "StepsSceOutline.the_userr_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "To test add tariff plan",
+    "description": "",
+    "id": "to-test-add-tariff-plan",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumbe/TariffSceOutLine.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
