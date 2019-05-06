@@ -17,7 +17,7 @@ public class StepsMap {
 static WebDriver driver;
 	@Given("The user is in add customer page now")
 	public void the_user_is_in_add_customer_page_now() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dhamodharan\\eclipse-workspace\\cucumberr\\lib\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\1\\eclipse-sivamani\\WebTable\\driver\\chromedriver.exe");
 		   driver= new ChromeDriver();
 		   driver.get("http://demo.guru99.com/telecom/addcustomer.php");
 	}

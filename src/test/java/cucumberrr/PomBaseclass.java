@@ -37,7 +37,7 @@ import org.openqa.selenium.WebDriver;
 
 		public static WebDriver launch(String url) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\Dhamodharan\\eclipse-workspace\\SeleniumLocators\\driver\\chromedriver.exe");
+					"C:\\Users\\1\\eclipse-sivamani\\WebTable\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.get(url);
 			return driver;

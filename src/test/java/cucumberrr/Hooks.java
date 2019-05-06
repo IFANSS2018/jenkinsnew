@@ -12,7 +12,7 @@ public class Hooks {
 @Before
 public static void testbefore()
 {System.out.println("Before");
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dhamodharan\\eclipse-workspace\\Selenium\\driver\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\1\\eclipse-sivamani\\WebTable\\driver\\chromedriver.exe");
 driver= new ChromeDriver();
 }
 @After
